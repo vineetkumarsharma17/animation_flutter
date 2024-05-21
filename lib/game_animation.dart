@@ -1,9 +1,12 @@
 import 'package:arthum_webview/animation/google_scrachcard/scratch_card.dart';
 import 'package:arthum_webview/animation/lottie.dart';
+import 'package:arthum_webview/animation/material_dialogs/material_dialogs.dart';
 import 'package:arthum_webview/animation/spin_wheel/spinWheel.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
 
+import 'animation/confettie/confettie_screen.dart';
+import 'animation/pick_a_card/pick_a_card.dart';
 import 'animation/starMeter/reward_meter.dart';
 
 class GameButtonScreen extends StatefulWidget {
@@ -42,6 +45,21 @@ class _GameButtonScreenState extends State<GameButtonScreen> {
                   Get.to(SpinWheelScreen());
                 },
                 child: Text("Spin Wheel")),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(ConfettieScreen());
+                },
+                child: Text("Confettie View")),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(MaterialDialogScreen());
+                },
+                child: Text("Material Dialogs")),
+            ElevatedButton(
+                onPressed: () {
+                  Get.to(PickCardScreen());
+                },
+                child: Text("Pick a Card")),
           ],
         ),
       ),
