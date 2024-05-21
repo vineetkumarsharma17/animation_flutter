@@ -320,6 +320,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.2.1"
+  reward_popup:
+    dependency: "direct main"
+    description:
+      name: reward_popup
+      sha256: "019cf5caa0246efebc7a4e9c445f7cffe1b5e2c53f6522f075b52ca63c9a2398"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.7"
   scratcher:
     dependency: "direct main"
     description:
