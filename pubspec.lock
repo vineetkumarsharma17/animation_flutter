@@ -168,6 +168,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
+  infinite_listview:
+    dependency: transitive
+    description:
+      name: infinite_listview
+      sha256: f6062c1720eb59be553dfa6b89813d3e8dd2f054538445aaa5edaddfa5195ce6
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   leak_tracker:
     dependency: transitive
     description:
@@ -328,6 +336,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.0.7"
+  roller_list:
+    dependency: "direct main"
+    description:
+      name: roller_list
+      sha256: b618001c5b7b414db6558775a0ba6d2b3f8bab307689b34a8e37a92e7b4c5340
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.3"
   scratcher:
     dependency: "direct main"
     description:

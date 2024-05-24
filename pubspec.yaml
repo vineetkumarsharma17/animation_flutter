@@ -45,6 +45,7 @@ dependencies:
   google_fonts: ^6.2.1
   flutter_credit_card: ^4.0.1
   reward_popup: ^0.0.7
+  roller_list: ^1.0.3
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,7 @@
 import 'package:arthum_webview/animation/google_scrachcard/scratch_card.dart';
 import 'package:arthum_webview/animation/lottie.dart';
 import 'package:arthum_webview/animation/material_dialogs/material_dialogs.dart';
+import 'package:arthum_webview/animation/roller_list/roller_list_screen.dart';
 import 'package:arthum_webview/animation/spin_wheel/spinWheel.dart';
 import 'package:flutter/material.dart';
 import 'package:get/route_manager.dart';
@@ -87,6 +88,11 @@ class _GameButtonScreenState extends State<GameButtonScreen> {
                   );
                 },
                 child: Text("Cool Popup")),
+            ElevatedButton(
+                onPressed: () async {
+                  Get.to(RollerListScreen());
+                },
+                child: Text("Roller List")),
           ],
         ),
       ),
